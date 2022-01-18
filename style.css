@@ -8,6 +8,7 @@
     background-image:url(./home.png);
     background-repeat: no-repeat;
     background-position: right;
+    background-origin:border-box;
 }
 /* _________________________ navbar ___________________________ */
 nav{
@@ -188,6 +189,9 @@ align-items: center;
     align-items: center;
     gap: 20px;
 }
+.comp img{
+    width:100px
+}
 /* _________________________ Experiance ___________________________ */
 .foot{
     width: 100%;
@@ -213,6 +217,9 @@ align-items: center;
 .fotnav ul li a{
     text-decoration: none;
 }
+#map{
+    width:  250px;
+}
 /* _________________________ Experiance ___________________________ */
 .credit{
     width:100%;
@@ -227,6 +234,9 @@ align-items: center;
     nav img {
         left:3%
     }
+    .body{
+background: none;
+    }
 }
 /* _________________________ navbar ___________________________ */
 
@@ -237,6 +247,9 @@ align-items: center;
     nav ul li a{
         font-size: 17px;
     }
+    .body{
+        background: none;
+            }
 /* _________________________ navbar ___________________________ */
 
 }
@@ -247,7 +260,7 @@ align-items: center;
     }
     ul{
         position: fixed;
-        width:65% ;
+        width:80% ;
         height:100vh ;
         background-color: rgb(134, 134, 134);
         top: 80px;
@@ -311,9 +324,10 @@ display:flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+font-size: 15px;
 }
 .value h1{
-    font-size: 18px;
+    font-size: 20px;
 }
 .service{
     color: rgb(7, 7, 66);
@@ -342,6 +356,7 @@ align-items: center;
     width: 50%;
     height: max-content;
     text-align: center;
+    
 }
 .serviceicon p {
     text-align: center;
@@ -364,7 +379,7 @@ align-items: center;
     outline: 2px solid rgb(7, 7, 66);
 }
 .service h1{
-    font-size: 10px;
+    font-size: 20px;
 }
 .rate{
     width: 100%;
@@ -418,12 +433,18 @@ align-items: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
 }
 .experiance h1{
-    font-size: 10px;
+    font-size: 20px;
 } 
+.foot{
+    font-size: 12px;
+}
 .foot svg{
     display: none;
+}
+.comp img{
+    width:80px
 }
 }
