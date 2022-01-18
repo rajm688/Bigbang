@@ -1,335 +1,334 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Cabin', sans-serif;
-
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Cabin", sans-serif;
 }
-.body{
-    background-image:url(./home.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-origin:border-box;
+.body {
+  background-image: url(./home.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-origin: border-box;
 }
 /* _________________________ navbar ___________________________ */
-nav{
-    height: 80px;
-    background-color: 0 0 0 0;
+nav {
+  height: 80px;
+  background-color: 0 0 0 0;
 }
-nav img{
-    width: 70px;
-    position: absolute;
-    top: 17px;
-    left:5%;
+nav img {
+  width: 70px;
+  position: absolute;
+  top: 17px;
+  left: 5%;
 }
-nav ul{
-    float: right;
-    margin-right: 56px;
-    list-style: none;
+nav ul {
+  float: right;
+  margin-right: 56px;
+  list-style: none;
 }
 nav ul li {
-    display:inline-block;
-    line-height: 80px;
-    margin: 0 15px;
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 15px;
 }
-nav ul li a{
-    position: relative;
-    color: white;
-    text-decoration: none;
-    font-size: 19px; 
-/* change font size */
+nav ul li a {
+  position: relative;
+  color: white;
+  text-decoration: none;
+  font-size: 19px;
+  /* change font size */
 }
 
-label #btn, label #cancel{
-    color: white;
-    font-size: 30px;
-    float: right;
-    line-height: 80px;
-    margin-right: 40px;
-    cursor: pointer;
-    display: none;
+label #btn,
+label #cancel {
+  color: white;
+  font-size: 30px;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
 }
-#check{
-    display: none;
+#check {
+  display: none;
 }
 /* _________________________ mainpage ___________________________ */
 
-.main{
-    width: 100%;
-    height: 100vh;
+.main {
+  width: 100%;
+  height: 100vh;
 }
-.maincontent{
-    width: 30%;
-    padding: 10% 5%;
-    color: rgb(7, 7, 66);
-    font-size: 20px;
-    line-height: 60px;
+.maincontent {
+  width: 30%;
+  padding: 10% 5%;
+  color: rgb(7, 7, 66);
+  font-size: 20px;
+  line-height: 60px;
 }
 /* _________________________ secondpage ___________________________ */
 
-.value{
-    color: rgb(7, 7, 66);
-    font-size: 20px;
-    width:100%;
-    padding: 10vh 0;
-    height: 80vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-align-items: center;
+.value {
+  color: rgb(7, 7, 66);
+  font-size: 20px;
+  width: 100%;
+  padding: 10vh 0;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
-.icondisplay{
-    width: 80%;
-    display:flex;
-    justify-content: space-evenly;
-    align-items: center;
+.icondisplay {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
-.icondisplay div{
-padding: 20px;
+.icondisplay div {
+  padding: 20px;
 }
 /* _________________________ services ___________________________ */
 
-.service{
-    color: rgb(7, 7, 66);
-    font-size: 20px;
-    width: 100%;
-    height: 120vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+.service {
+  color: rgb(7, 7, 66);
+  font-size: 20px;
+  width: 100%;
+  height: 120vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
-.services div{
-    display: flex;
-    flex-wrap: nowrap;
+.services div {
+  display: flex;
+  flex-wrap: nowrap;
 }
-.serviceicon{
-    width: 100%;
-    display:flex;
-    justify-content: space-evenly;
-    align-items: center;
+.serviceicon {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
-.serviceicon div{
-    font-size: 15px;
+.serviceicon div {
+  font-size: 15px;
 
-    width: 18%;
-    height: 160px;
-    text-align: center;
+  width: 18%;
+  height: 160px;
+  text-align: center;
 }
 .serviceicon p {
-    text-align: center;
+  text-align: center;
 }
-.btngrp{
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    padding: 20px 0;
-    gap: 10px;
+.btngrp {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  gap: 10px;
 }
-.btngrp button{
-    width: 20%;
-    padding: 20px;
-    color: white;
-    background-color: rgb(7, 7, 66) ;
-    border: 2px solid white;
-    outline: 2px solid rgb(7, 7, 66);
+.btngrp button {
+  width: 20%;
+  padding: 20px;
+  color: white;
+  background-color: rgb(7, 7, 66);
+  border: 2px solid white;
+  outline: 2px solid rgb(7, 7, 66);
 }
 
 /* _________________________ fourthpage ___________________________ */
-.rate{
-    width: 100%;
-    height: 80vh;
-    display: flex;
-    padding-top: 20vh;
-    justify-content: space-around;
-align-items: center;
-    color: white;
-    background-color: rgb(7, 7, 66) ;
+.rate {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  padding-top: 20vh;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  background-color: rgb(7, 7, 66);
 }
-#line1{
-    font-size: 40px;
+#line1 {
+  font-size: 40px;
 }
-#line2{
-    font-size: 49px;
+#line2 {
+  font-size: 49px;
 }
-#line3{
-    font-size: 53px;
+#line3 {
+  font-size: 53px;
 }
-#line4{
-    font-size: 58px;
+#line4 {
+  font-size: 58px;
 }
-#hour{
-    font-size: 130px;
+#hour {
+  font-size: 130px;
 }
-#hours{
-    font-size: 54px;
+#hours {
+  font-size: 54px;
 }
-.hours{
-    text-align: center;
-    width: 190px;
-    transform: translate(410px, -235px);
-    background-color: white;
-    color: rgb(7, 7, 66) ;
+.hours {
+  text-align: center;
+  width: 190px;
+  transform: translate(410px, -235px);
+  background-color: white;
+  color: rgb(7, 7, 66);
 }
-#rate{
-    font-size: 40px;
-}
-/* _________________________ Experiance ___________________________ */
-.experiance{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.comp{
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-.comp img{
-    width:100px
+#rate {
+  font-size: 40px;
 }
 /* _________________________ Experiance ___________________________ */
-.foot{
-    width: 100%;
-    height: 20vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.experiance {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.foot div{
-display: flex;
-justify-content: space-evenly;
-align-items: center;
+.comp {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
-.fotnav ul{
-    padding: 20px;
-    display: flex;
-    gap: 40px;
-    justify-content: space-evenly;
-    color: rgb(7, 7, 66) ;
-    list-style: none;
-}
-.fotnav ul li a{
-    text-decoration: none;
-}
-#map{
-    width:  250px;
+.comp img {
+  width: 100px;
 }
 /* _________________________ Experiance ___________________________ */
-.credit{
-    width:100%;
-    height: 5vh;
-    text-align: center;
-    background-color:rgb(7, 7, 66) ; 
-    color: white;
+.foot {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.foot div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.fotnav ul {
+  padding: 20px;
+  display: flex;
+  gap: 40px;
+  justify-content: space-evenly;
+  color: rgb(7, 7, 66);
+  list-style: none;
+}
+.fotnav ul li a {
+  text-decoration: none;
+}
+#map {
+  width: 250px;
+}
+/* _________________________ Experiance ___________________________ */
+.credit {
+  width: 100%;
+  height: 5vh;
+  text-align: center;
+  background-color: rgb(7, 7, 66);
+  color: white;
 }
 /* _________________________ mediaqueries ___________________________ */
 
-@media (max-width:1118px){
-    nav img {
-        left:3%
-    }
-    .body{
-background: none;
-    }
-}
-/* _________________________ navbar ___________________________ */
-
-@media (max-width:944px){
-    nav img {
-        left:2%
-    }
-    nav ul li a{
-        font-size: 17px;
-    }
-    .body{
-        background: none;
-            }
-/* _________________________ navbar ___________________________ */
-
-}
-@media (max-width:860px){
-    label #btn{
-        display: block;
-        color: black;
-    }
-    ul{
-        position: fixed;
-        width:80% ;
-        height:100vh ;
-        background-color: rgb(134, 134, 134);
-        top: 80px;
-        left: -100%;
-        text-align: center;
-        transition: all .5s;
-    }
-    nav ul li{
-        display: block;
-        margin:50px 0;
-        line-height: 30px;
-    }
-    nav ul li a{
-        font-size: 20px;
-    }
-    #check:checked ~ul{
-        left:0
-    }
-  #check:checked ~ label #btn{
-      display: none;
+@media (max-width: 1118px) {
+  nav img {
+    left: 3%;
   }
-  #check:checked ~ label #cancel{
+  .body {
+    background: none;
+  }
+}
+/* _________________________ navbar ___________________________ */
+
+@media (max-width: 944px) {
+  nav img {
+    left: 2%;
+  }
+  nav ul li a {
+    font-size: 17px;
+  }
+  .body {
+    background: none;
+  }
+  /* _________________________ navbar ___________________________ */
+}
+@media (max-width: 860px) {
+  label #btn {
     display: block;
     color: black;
-/* _________________________ navbar ___________________________ */
-}
-.body{
+  }
+  ul {
+    position: fixed;
+    width: 80%;
+    height: 100vh;
+    background-color: rgb(134, 134, 134);
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a {
+    font-size: 20px;
+  }
+  #check:checked ~ ul {
+    left: 0;
+  }
+  #check:checked ~ label #btn {
+    display: none;
+  }
+  #check:checked ~ label #cancel {
+    display: block;
+    color: black;
+    /* _________________________ navbar ___________________________ */
+  }
+  .body {
     background: none;
-}
-.maincontent{
+  }
+  .maincontent {
     width: 90%;
-    height:80vh ;
-    
+    height: 80vh;
+
     padding: 12vh 5% 0;
     color: rgb(7, 7, 66);
     font-size: 20px;
     line-height: 60px;
-}
+  }
 
-.value{
+  .value {
     color: rgb(7, 7, 66);
     font-size: 20px;
-    width:100%;
+    width: 100%;
     padding: 10vh 0;
     height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-align-items: center;
-}
-.icondisplay{
+    align-items: center;
+  }
+  .icondisplay {
     width: 80%;
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-.icondisplay div{
-padding: 20px;
-display:flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-font-size: 15px;
-}
-.value h1{
+  }
+  .icondisplay div {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+  }
+  .value h1 {
     font-size: 20px;
-}
-.service{
+  }
+  .service {
     color: rgb(7, 7, 66);
     font-size: 20px;
     width: 100%;
@@ -338,30 +337,29 @@ font-size: 15px;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-}
-.services div{
+  }
+  .services div {
     display: flex;
     flex-wrap: nowrap;
-}
-.serviceicon{
+  }
+  .serviceicon {
     width: 100%;
     height: max-content;
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-.serviceicon div{
+  }
+  .serviceicon div {
     font-size: 15px;
     width: 50%;
     height: max-content;
     text-align: center;
-    
-}
-.serviceicon p {
+  }
+  .serviceicon p {
     text-align: center;
-}
-.btngrp{
+  }
+  .btngrp {
     width: 90%;
     display: flex;
     flex-direction: column;
@@ -369,82 +367,82 @@ font-size: 15px;
     align-items: center;
     padding: 20px 0;
     gap: 10px;
-}
-.btngrp button{
+  }
+  .btngrp button {
     width: 80%;
     padding: 20px;
     color: white;
-    background-color: rgb(7, 7, 66) ;
+    background-color: rgb(7, 7, 66);
     border: 2px solid white;
     outline: 2px solid rgb(7, 7, 66);
-}
-.service h1{
+  }
+  .service h1 {
     font-size: 20px;
-}
-.rate{
+  }
+  .rate {
     width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-align-items: center;
+    align-items: center;
     color: white;
-    background-color: rgb(7, 7, 66) ;
-}
-#line1{
+    background-color: rgb(7, 7, 66);
+  }
+  #line1 {
     font-size: 20px;
-}
-#line2{
+  }
+  #line2 {
     font-size: 25px;
-}
-#line3{
+  }
+  #line3 {
     font-size: 28px;
-}
-#line4{
+  }
+  #line4 {
     font-size: 31px;
-}
-#hour{
+  }
+  #hour {
     font-size: 60px;
-}
-#hours{
+  }
+  #hours {
     font-size: 25px;
-}
-.hours{
+  }
+  .hours {
     text-align: center;
     width: 100%;
     height: 15vh;
     transform: translate(1px, 1px);
     background-color: white;
-    color: rgb(7, 7, 66) ;
-}
-#rate{
+    color: rgb(7, 7, 66);
+  }
+  #rate {
     font-size: 30px;
-}
-.experiance{
+  }
+  .experiance {
     width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-.comp{
+  }
+  .comp {
     font-size: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
-}
-.experiance h1{
+  }
+  .experiance h1 {
     font-size: 20px;
-} 
-.foot{
+  }
+  .foot {
     font-size: 12px;
-}
-.foot svg{
+  }
+  .foot svg {
     display: none;
-}
-.comp img{
-    width:80px
-}
+  }
+  .comp img {
+    width: 80px;
+  }
 }
